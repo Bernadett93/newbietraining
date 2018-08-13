@@ -1,6 +1,6 @@
 # newbietraining
 My thesis for the software development<br>
-<h1> Web Applicatiob</h1>
+<h1> Web Application</h1>
 First step: Download the XAMPP Control Panel program, and this program will have a "htdocs" folder (usually c://xampp/htdocs). Download all files from the "WEB_NewbieTraining_SzentiBernadett" folder and copy these files to the htdocs folder.<br>
 Second step: Run the XAMPP, and start the Apache and MySQL module.<br>
 Third step: Open the localhost/phpmyadmin site, and import the "szakdolgozat_adatokkal.sql" file from the "Database" folder.<br>
