@@ -1,0 +1,130 @@
+body{
+	background-image: url('../kepek/background_files3.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+div#container{
+	border: 6px solid #5bc0de;
+	box-shadow: 3px 3px 5px #808080;
+	width: 40%;
+	border-radius: 10px;
+	background-color: #fff;
+	opacity: 0.9;
+	padding: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+div#segedanyagok{
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 auto;
+	display: flex;
+}
+
+h1#udvozles{
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	color: #000000;
+	font-size: 40px;
+	text-shadow: 2px 1px #ffffff;
+	margin-bottom: 40px;
+	width: 70%;
+	margin-top: 80px;
+}
+
+h1#upload, #download{
+	font-family: 'Indie Flower';
+	margin: 10px;
+	text-align: center;
+	color: #000000;
+	font-size: 28px;
+}
+
+div#sections{
+	padding: 10px;
+	text-align: center;
+}
+
+form#uploadForm{
+	text-align: center;
+}
+
+div#upload{
+	border: 6px solid #5bc0de;
+	box-shadow: 3px 3px 5px #808080;
+	width: 50%;
+	border-radius: 10px;
+	background-color: #fff;
+	opacity: 0.9;
+	padding: 30px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+span#hibauzenet{
+	color: #FF0000;
+	font-style: italic;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#loginWindow{
+	width: 400px;
+	justify-content: center;
+	text-align: center;
+	margin-top: 100px;
+	border: 1px solid #808080;
+	box-shadow: 3px 3px 6px #808080;
+}
+
+div#loginWindow img#warning{
+	width: 100px;
+	height: 100px;
+}
+
+h1#trainingLogin{
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Satisfy', cursive;
+}
+
+@media only screen 
+and (min-width: 558px)
+and (max-width: 730px)
+{
+	h1#udvozles{
+		margin-top: 110px;
+	}
+	#loginWindow{
+		
+		margin-top: 200px;
+	}
+}
+@media only screen 
+and (max-width: 790px)
+{
+	div#container{
+		width: 90%;
+	}
+	div#upload{
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 578px)
+{
+	h1#udvozles{
+		margin-top: 250px;
+	}
+	#loginWindow{
+		margin-top: 300px;
+	}
+}

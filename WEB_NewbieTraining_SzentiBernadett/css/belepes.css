@@ -1,0 +1,43 @@
+
+body{
+	font-family: 'Karla', sans-serif;
+}
+
+#loginWindow{
+	width: 400px;
+	justify-content: center;
+	text-align: center;
+}
+
+div.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 700px;
+}	
+button#signin{
+	width: 100%;
+	padding: 10px;
+}
+img#logo{
+	width: 250px;
+	margin: auto;
+	display: block;
+	margin-bottom: 20px;
+}
+img#warning{
+	width: 100px;
+	height: 100px;
+}
+h1#trainingLogin{
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Satisfy', cursive;
+}
+p{text-align: center}
+span#hibauzenet{
+	color: #FF0000;
+	font-style: italic;
+	font-size: 16px;
+	margin-bottom: 10px;
+}

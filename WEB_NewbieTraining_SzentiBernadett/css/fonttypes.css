@@ -1,0 +1,24 @@
+@font-face{
+	font-family: 'Satisfy';
+	src: url('fonttypes/Satisfy-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Karla';
+	src: url('fonttypes/Karla-Regular.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'PT Serif';
+	src: url('fonttypes/PT_Serif-Web-Regular.tff') format('truetype');
+}
+
+@font-face{
+	font-family: 'Indie Flower';
+	src: url('fonttypes/IndieFlower.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: Montserrat;
+	src: url('fonttypes/Montserrat-Black.tff') format('truetype');
+}

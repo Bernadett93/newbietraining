@@ -1,0 +1,96 @@
+body{
+	background-image: url('../kepek/background_personal.png');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+div#szemelyesadatok{
+	border: 6px solid #5bc0de;
+	box-shadow: 3px 3px 5px #808080;
+	margin-top: 80px;
+	width: 70%;
+	border-radius: 10px;
+	background-color: #fff;
+	opacity: 0.9;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+h1{
+	font-family: 'Indie Flower';
+	text-align: center;
+	color: #5bc0de;
+	font-size: 30px;
+	text-shadow: 1px 1px #696969;
+	margin-bottom: 40px;
+}
+
+td, th{
+	padding: 10px;
+	width: 50%;
+}
+
+th{
+	color: #00008B;
+	font-size: 18px;
+}
+
+button{
+	margin-left: 20px;
+}
+
+
+div#modositadatok{
+	width: 500px;
+	margin: 0 auto;
+}
+
+label{
+	color: #00008B;
+	font-size: 18px;
+}
+
+button{margin-top: 20px}
+p{text-align: center}
+
+span.hibauzenet{
+	color: #FF0000;
+	font-style: italic;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+@media screen 
+and (max-width : 575.9px)
+{
+	div#szemelyesadatok{margin-top: 230px;
+	width: 100%}
+	body{
+		padding: 10px;
+	}
+	div#szemelyesadatok form input{
+		width:350px;
+	}
+}
+@media only screen 
+and (min-width: 575.9px)
+and (max-width: 786.4px)
+{
+	div#szemelyesadatok{
+		margin-top: 100px;
+	}
+	div#szemelyesadatok form input{
+		width:350px;
+	}
+}
+@media only screen 
+and (max-height: 704px)
+and (min-height: 786.4px)
+{
+	div#szemelyesadatok{margin-top: 60px}
+}

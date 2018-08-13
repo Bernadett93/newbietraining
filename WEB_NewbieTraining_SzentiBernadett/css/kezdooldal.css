@@ -1,0 +1,70 @@
+.carousel-inner img{
+	width: 100%;
+	max-height: 60%;
+}
+
+section{
+	display:flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 auto;
+	height: 400px;
+}
+
+article{
+	width: 300px;
+	height: 280px;
+	border-radius: 10px;
+	border: 5px solid #5bc0de;
+	box-shadow: 3px 5px 5px #778899;
+	margin: 20px;
+	padding: 20px;
+	-webkit-transition: height width 0.5s;
+	transition: 0.5s;
+	text-align: center;
+}
+
+article:hover{
+	width: 310px;
+	height: 260px;
+}
+
+header{
+	font-family: 'Indie Flower';
+	margin: 10px;
+	text-align: center;
+	color: #5bc0de;
+	font-size: 28px;
+	text-shadow: 1px 1px #808080;
+}
+
+#kepek{
+	margin-top: 55px;
+}
+
+@media screen and (max-width : 575.9px)
+{
+	div#kepek{
+		display: none;
+	}
+	article:nth-of-type(1){margin-top: 250px;}
+}
+
+@media all and (max-width: 575.9px)
+{
+	section{
+		flex-flow: column wrap;
+		align-items: center;
+		height: auto;
+	}
+}
+
+@media only screen 
+and (min-width: 575.9px)
+and (max-width: 620px)
+{
+	div#kepek{
+		margin-top: 95px;
+	}
+}

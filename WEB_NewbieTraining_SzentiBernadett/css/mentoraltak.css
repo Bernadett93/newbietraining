@@ -1,0 +1,89 @@
+body{
+	background-image: url('../kepek/background_mentoring.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+div#mentoraltak{
+	width: 70%;
+	margin: 0 auto;
+	border: 6px solid #5bc0de;
+	box-shadow: 3px 3px 5px #808080;
+	margin-top: 60px;
+	border-radius: 10px;
+	background-color: #fff;
+	opacity: 0.9;
+	padding: 30px;
+}
+
+span.hibauzenet{
+	color: #FF0000;
+	font-style: italic;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+h1{
+	font-family: 'Indie Flower';
+	text-align: center;
+	color: #5bc0de;
+	font-size: 35px;
+	text-shadow: 1px 1px #696969;
+	margin-bottom: 40px;
+}
+
+h3{
+	font-size: 25px;
+	color: #00008B;
+}
+
+button#visszamentoraltakhoz, button#oktataskiirasa{
+	margin-top: 20px;
+}
+
+div.container{
+	width: 500px;
+	margin-top: 20px;
+}
+
+form{
+	display: inline;
+	margin-left: 20px;
+}
+
+div#content{
+	color: green;
+}
+
+@media screen
+and (max-width: 575px)
+{
+	div#mentoraltak{
+		margin-top: 200px;
+	}
+}
+
+@media screen
+and (min-width: 559px)
+and (max-width: 720px)
+{
+	div#mentoraltak{
+		margin-top: 100px;
+	}
+}
+
+@media screen
+and (max-width: 765px)
+{
+	div#mentoraltak{
+		width: 100%;
+	}
+}
+
+
