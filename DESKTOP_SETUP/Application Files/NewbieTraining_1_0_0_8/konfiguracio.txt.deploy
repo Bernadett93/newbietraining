@@ -1,0 +1,3 @@
+﻿Iskolai localhost;server:localhost;user:root;password:;port:3307;database:szakdolgozat
+Otthoni localhost;server:localhost;user:root;password: ;port:3306;database:szakdolgozat
+Iskolai sajat szerver;server:10.0.128.111;user:zarodolgozat;password:zarodolgozat;port:3306;database:zarodolgozat_2017szeber
